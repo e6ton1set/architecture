@@ -8,6 +8,7 @@ public class Harvester extends Car{
         super(make, model, color);
         setWheelsCount(6);
         this.fuelType = FuelType.Gasoline;
+        this.type = CarType.Sedan;
     }
     // Принцип открытости и закрытости
     private boolean fogLights = false;

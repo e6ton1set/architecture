@@ -5,10 +5,15 @@ public abstract class Car {
 
     //region Методы
 
-    private Refueling refueling;
 
+    // добавить заправочную станцию
     public void setRefuelingStation(Refueling refuelingStation){
         this.refueling = refuelingStation;
+    }
+
+    // добавить станцию мойки
+    public void setWiping(Wiping wiping) {
+        this.wiping = wiping;
     }
 
     // Заправить автомобиль
@@ -53,6 +58,10 @@ public abstract class Car {
     //endregion
 
     //region Поля
+
+    private Refueling refueling;
+
+    private Wiping wiping;
 
     // Марка автомобиля
     private String make;

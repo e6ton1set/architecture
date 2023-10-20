@@ -8,6 +8,7 @@ public class SportCar extends Car{
         super(make, model, color);
         setWheelsCount(3);
         this.fuelType = FuelType.Diesel;
+        this.type = CarType.Sport;
     }
 
     @Override
