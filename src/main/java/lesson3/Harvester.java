@@ -6,6 +6,7 @@ public class Harvester extends Car{
     //автомобиль-уборщик
     public Harvester(String make, String model, Color color) {
         super(make, model, color);
+        setWheelsCount(6);
     }
     // Принцип открытости и закрытости
     private boolean fogLights = false;

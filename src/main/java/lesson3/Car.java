@@ -5,6 +5,13 @@ public abstract class Car {
 
     //region Методы
 
+    // Количество колёс
+    protected void setWheelsCount(int wheelsCount){
+        this.wheelsCount = wheelsCount;
+    }
+
+    public int getWheelsCount() {return wheelsCount;}
+
     // Движение
     public abstract void movement();
 
