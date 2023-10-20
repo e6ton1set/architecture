@@ -1,4 +1,4 @@
-package srp;
+package lesson3.srp;
 
 public class Program {
 
