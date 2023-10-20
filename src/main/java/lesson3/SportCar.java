@@ -7,6 +7,7 @@ public class SportCar extends Car{
     public SportCar(String make, String model, Color color) {
         super(make, model, color);
         setWheelsCount(3);
+        this.fuelType = FuelType.Diesel;
     }
 
     @Override

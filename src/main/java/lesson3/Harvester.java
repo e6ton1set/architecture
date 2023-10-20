@@ -7,6 +7,7 @@ public class Harvester extends Car{
     public Harvester(String make, String model, Color color) {
         super(make, model, color);
         setWheelsCount(6);
+        this.fuelType = FuelType.Gasoline;
     }
     // Принцип открытости и закрытости
     private boolean fogLights = false;

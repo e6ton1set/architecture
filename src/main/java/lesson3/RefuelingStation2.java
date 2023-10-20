@@ -1,8 +1,8 @@
 package lesson3;
 
-public class RefuelingStation implements Refueling{
+public class RefuelingStation2 implements Refueling{
 
-    public void processFuel(FuelType fuelType) {
+    public void processCarFuel(FuelType fuelType) {
         switch (fuelType){
             case Diesel -> System.out.println("Заправка дизелем");
             case Gasoline -> System.out.println("Заправка бензином");
@@ -10,7 +10,6 @@ public class RefuelingStation implements Refueling{
     }
 
     @Override
-    public void fuel(FuelType fuelType) {
-        processFuel(fuelType);
+    public void fuel(FuelType fuelType) {processCarFuel(fuelType);
     }
 }

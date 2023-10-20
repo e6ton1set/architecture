@@ -5,6 +5,19 @@ public abstract class Car {
 
     //region Методы
 
+    private Refueling refueling;
+
+    public void setRefuelingStation(Refueling refuelingStation){
+        this.refueling = refuelingStation;
+    }
+
+    // Заправить автомобиль
+    public void fuel() {
+        if(refueling != null){
+            refueling.fuel(fuelType);
+        }
+    }
+
     // Количество колёс
     protected void setWheelsCount(int wheelsCount){
         this.wheelsCount = wheelsCount;

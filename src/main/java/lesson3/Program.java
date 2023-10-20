@@ -1,5 +1,7 @@
 package lesson3;
 
+import java.awt.*;
+
 public class Program {
    /* 1. Спроектировать абстрактный класс «Car» у которого должны быть свойства: марка, модель, цвет, тип кузова, число колёс, тип топлива, тип коробки передач, объём двигателя; методы: движение, обслуживание, переключение передач, включение фар, включение дворников.
    2. Создать конкретный автомобиль путём наследования класса «Car».
@@ -14,6 +16,15 @@ public class Program {
    11. Создать путём наследования класса «Car» два автомобиля: с бензиновым и дизельным двигателями, имплементировать метод «Заправка топливом» интерфейса «Заправочная станция». Реализовать заправку каждого автомобиля подходящим топливом. Провести проверку принципа DIP.
    TODO: Домашнее задание: Доработать приложение, спроектированное на семинаре. Добавить тип, описывающий "автомойку". Продемонстрировать работу получившейся программы, создать несколько типов автомобилей, загнать каждый автомобиль на заправку, а затем и на автомойку.*/
     public static void main(String[] args) {
+
+        RefuelingStation refuelingStation = new RefuelingStation();
+        RefuelingStation2 refuelingStation2 = new RefuelingStation2();
+        Harvester harvester = new Harvester("Mark", "ModelGPT", Color.blue);
+        SportCar sportCar = new SportCar("Neo", "XTA", Color.black);
+        harvester.setRefuelingStation(refuelingStation);
+        sportCar.setRefuelingStation(refuelingStation2);
+        harvester.fuel();
+        sportCar.fuel();
 
     }
 }
