@@ -3,6 +3,11 @@ import java.awt.*;
 
 public class Harvester extends Car{
 
+    // Прицип единой ответственности (SRP) -> мы не стали добавлять ещё один абстрактный метод в родительский класс Car, т.к. не все автомобили умеют подметать улицы. Поэтому мы создали отдельный метод для наследника Harvester (уборщик).
+    public void sweeping() {
+        System.out.println("Автомобиль метёт улицу.");
+    }
+
     @Override
     public void movement() {
 
