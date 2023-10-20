@@ -3,6 +3,17 @@ import java.awt.*;
 
 public class Harvester extends Car{
 
+    //автомобиль-уборщик
+    public Harvester(String make, String model, Color color) {
+        super(make, model, color);
+    }
+    // Принцип открытости и закрытости
+    private boolean fogLights = false;
+    public boolean switchFogLights(){
+        fogLights = !fogLights;
+        return fogLights;
+    }
+
     // Прицип единой ответственности (SRP) -> мы не стали добавлять ещё один абстрактный метод в родительский класс Car, т.к. не все автомобили умеют подметать улицы. Поэтому мы создали отдельный метод для наследника Harvester (уборщик).
     public void sweeping() {
         System.out.println("Автомобиль метёт улицу.");
@@ -31,10 +42,5 @@ public class Harvester extends Car{
     @Override
     public boolean switchWipers() {
         return false;
-    }
-
-    //автомобиль-уборщик
-    public Harvester(String make, String model, Color color) {
-        super(make, model, color);
     }
 }
