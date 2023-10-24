@@ -1,4 +1,4 @@
-package ru.geekbrains.lesson4.task2;
+package lesson4.task2;
 
 import java.util.Collection;
 import java.util.Date;
