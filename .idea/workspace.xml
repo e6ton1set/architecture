@@ -5,23 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2c8459f-8ea6-44f3-a20a-b67f9bc444bd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson4/task1/ComponentInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson4/task1/DealerProvider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson4/task1/Factory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson4/task1/FactoryProvider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson4/task1/PriceProvider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson4/task1/Program.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson4/task2/BusStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson4/task2/BusStation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson4/task2/Core.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson4/task2/Core.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson4/task2/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson4/task2/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson4/task2/CustomerProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson4/task2/CustomerProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson4/task2/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson4/task2/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson4/task2/MobileApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson4/task2/MobileApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson4/task2/PaymentProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson4/task2/PaymentProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson4/task2/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson4/task2/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson4/task2/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson4/task2/Ticket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson4/task2/TicketProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson4/task2/TicketProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson2/factorymethod/BaseLogReaderCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2/factorymethod/BaseLogReaderCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson2/factorymethod/ConcreteReaderCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2/factorymethod/ConcreteReaderCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson2/factorymethod/DatabaseReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2/factorymethod/DatabaseReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson2/factorymethod/LogType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2/factorymethod/LogType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson2/factorymethod/OperationSystemLogEventReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2/factorymethod/OperationSystemLogEventReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson2/factorymethod/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2/factorymethod/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson2/factorymethod/Sample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2/factorymethod/Sample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson2/factorymethod/TextFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2/factorymethod/TextFileReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson2/templatemethod/LogEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2/templatemethod/LogEntry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson2/templatemethod/LogReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2/templatemethod/LogReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson2/templatemethod/PoemReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2/templatemethod/PoemReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson2/templatemethod/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2/templatemethod/Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +65,20 @@
       <recent name="lesson3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.lesson4.Program">
+  <component name="RunManager" selected="Application.Program">
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson2.templatemethod.Program" />
+      <module name="architecture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson2.templatemethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="lesson3.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson3.Program" />
       <module name="architecture" />
@@ -123,26 +131,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="srp.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="srp.Program" />
-      <module name="architecture" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="srp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Program" />
         <item itemvalue="Application.lesson4.Program" />
         <item itemvalue="Application.lesson3.Program" />
         <item itemvalue="Application.lesson4.task1.Program" />
         <item itemvalue="Application.ru.geekbrains.lesson3.ocp.Program" />
-        <item itemvalue="Application.srp.Program" />
       </list>
     </recent_temporary>
   </component>

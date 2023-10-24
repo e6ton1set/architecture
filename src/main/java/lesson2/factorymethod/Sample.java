@@ -1,4 +1,4 @@
-package ru.geekbrains.lesson2.factorymethod;
+package lesson2.factorymethod;
 
 public class Sample {
 

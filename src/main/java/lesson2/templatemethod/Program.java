@@ -1,4 +1,4 @@
-package ru.geekbrains.lesson2.templatemethod;
+package lesson2.templatemethod;
 
 public class Program {
 

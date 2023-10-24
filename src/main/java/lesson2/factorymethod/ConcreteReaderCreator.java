@@ -1,7 +1,7 @@
-package ru.geekbrains.lesson2.factorymethod;
+package lesson2.factorymethod;
 
-import ru.geekbrains.lesson2.templatemethod.LogReader;
-import ru.geekbrains.lesson2.templatemethod.PoemReader;
+import lesson2.templatemethod.LogReader;
+import lesson2.templatemethod.PoemReader;
 
 public class ConcreteReaderCreator extends BaseLogReaderCreator {
     @Override

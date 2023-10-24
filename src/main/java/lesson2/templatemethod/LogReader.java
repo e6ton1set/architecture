@@ -1,4 +1,4 @@
-package ru.geekbrains.lesson2.templatemethod;
+package lesson2.templatemethod;
 
 import java.util.ArrayList;
 import java.util.List;
