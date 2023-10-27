@@ -35,6 +35,11 @@ public class EditorBusinessLogicalLayer implements BusinessLogicalLayer {
         }
     }
 
+    @Override
+    public void delEntity() {
+        databaseAccess.removeEntity();
+    }
+
     private Random random = new Random();
 
     private void processRender(Model3D model){

@@ -9,6 +9,7 @@ public interface Database {
 
     void load();
     void save();
+    void del();
 
     Collection<Entity> getAll();
 

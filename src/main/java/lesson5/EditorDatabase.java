@@ -24,6 +24,13 @@ public class EditorDatabase implements Database {
     public void save() {
         // Сохранение текущего состояния всех сущностей проекта
     }
+    @Override
+    public void del() {
+        // Удаление всех моделей и текстур
+            for (Entity element: entities) {
+                entities.remove(element);
+        }
+    }
 
     @Override
     public Collection<Entity> getAll() {

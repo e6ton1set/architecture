@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2c8459f-8ea6-44f3-a20a-b67f9bc444bd" name="Changes" comment="" />
+    <list default="true" id="b2c8459f-8ea6-44f3-a20a-b67f9bc444bd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson5/BusinessLogicalLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson5/BusinessLogicalLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson5/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson5/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson5/DatabaseAccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson5/DatabaseAccess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson5/Editor3D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson5/Editor3D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson5/EditorBusinessLogicalLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson5/EditorBusinessLogicalLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson5/EditorDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson5/EditorDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson5/EditorDatabaseAccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson5/EditorDatabaseAccess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson5/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson5/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson5/UILayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson5/UILayer.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

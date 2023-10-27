@@ -101,6 +101,12 @@ public class Editor3D implements UILayer{
 
     }
 
+    @Override
+    public void delAll() {
+        businessLogicalLayer.delEntity();
+        System.out.println("Удаление завершено.");
+    }
+
     private void checkProjectFile(){
         if (projectFile == null)
             throw new RuntimeException("Файл проекта не определен.");
