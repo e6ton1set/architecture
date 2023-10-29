@@ -2,7 +2,6 @@ package lesson6.domain;
 
 public class Note {
 
-
     //region Constructors
 
     public Note(int id, String title, String details) {
