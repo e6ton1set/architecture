@@ -37,8 +37,9 @@ public class BookingView implements View {
             observer.onReservationTable(reservtionDate, tableNo, name);
     }
 
-    public void changeReservationTable(int oldReservation, Date reservtionDate, int tableNo, String name){
-
+    public void changeReservationTable(int oldReservationNo, Date reservationDate, int tableNo, String name){
+        for (ViewObserver observer : observers)
+            observer.onReservationChanged(oldReservationNo, reservationDate, tableNo, name);
     }
 
 }

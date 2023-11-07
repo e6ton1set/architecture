@@ -35,7 +35,16 @@ public class TableModel implements Model {
         throw new RuntimeException("Некорректный номер столика");
     }
 
-    public int changeReservationTable(){
+    public int changeReservationTable(int oldReservationNo, Date reservationDate, int tableNo, String name){
+        for (Table table : this.tables) {
+            Collection<Reservation> tableReservations = table.getReservations();
+            for (Reservation reservation : tableReservations) {
+                if (reservation.getId() == oldReservationNo) {
+                    tableReservations.remove(reservation);
+                    return this.reservationTable(reservationDate, tableNo, name);
+                }
+            }
+        }
         return -1;
     }
 }
