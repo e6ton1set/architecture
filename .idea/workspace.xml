@@ -52,26 +52,13 @@
       <recent name="lesson3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.lesson6.Program">
+  <component name="RunManager" selected="Application.lesson8.Program">
     <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson2.templatemethod.Program" />
       <module name="architecture" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lesson2.templatemethod.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="lesson4.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson4.Program" />
-      <module name="architecture" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,13 +105,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="lesson8.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson8.Program" />
+      <module name="architecture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.lesson8.Program" />
         <item itemvalue="Application.lesson6.Program" />
         <item itemvalue="Application.lesson5.Program" />
         <item itemvalue="Application.lesson4.task2.Program" />
         <item itemvalue="Application.Program" />
-        <item itemvalue="Application.lesson4.Program" />
       </list>
     </recent_temporary>
   </component>
